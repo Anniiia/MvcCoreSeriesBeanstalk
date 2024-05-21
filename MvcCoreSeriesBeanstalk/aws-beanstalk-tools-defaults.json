@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : true,
+    "application"    : "MvcCoreSeriesBeanstalk",
+    "environment"    : "MvcCoreSeriesBeanstalk-dev2",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.7.1 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "mvccoreseriesbeanstalk-dev2annie",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "key-linux-web-server",
+    "instance-profile"     : "awx-elasticbeanstalk-allow",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
